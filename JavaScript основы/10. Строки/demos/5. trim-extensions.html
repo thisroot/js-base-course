@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Strings - Extensions - Trim</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+	<script src="scripts/string-extensions.js"></script>
+</head>
+<body>
+	<div id="js-console"></div>
+	<script src="scripts/js-console.js"></script>
+
+	<script>
+	var str = '              хали гали пара трупер                ';
+
+jsConsole.writeLine('обрезаем пробелы');
+jsConsole.writeLine('оригинал: !' + str + '!');
+
+jsConsole.writeLine('обрезка: !' + str.trim() + '!');
+jsConsole.writeLine('обрезать слева: !' + str.trimLeft() + '!');
+jsConsole.writeLine('обрезать справа: !' + str.trimRight() + '!');
+
+str = 'хали гали пара трупер';
+var chars = 'пер';
+
+jsConsole.writeLine();
+jsConsole.writeLine('обрезка символов: ' + chars);
+
+jsConsole.writeLine('оригинал: !' + str + '!');
+jsConsole.writeLine('обрезанная: !' + str.trimChars(chars) + '!');
+jsConsole.writeLine('обрезка слева: !' + str.trimLeftChars(chars) + '!');
+jsConsole.writeLine('обрезка справа: !' + str.trimRightChars(chars) + '!');
+	</script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+﻿<html>
+<head>
+	<title>Functions - Overloading with Number of Parameters</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="js-console"></div>
+	<script src="scripts/js-console.js"></script>
+	<script type="text/javascript">
+
+		function getCharCount(str,char, isCaseSensitive) {
+			function getCharCountCaseInsensitive(char) {
+				var ch,
+					count = 0,
+					lowerChar = char.toLowerCase(),
+					upperChar = char.toUpperCase();
+
+				for (ch = 0; ch < str.length; ch++) {
+					if (str[ch] === lowerChar || str[ch] === upperChar) count++;
+				}
+
+				return count;
+			}
+
+			function getCharCountCaseSensitive(char) {
+				var ch,
+					count = 0;
+
+				for (ch = 0; ch < str.length; ch++) {
+					if (str[ch] === char) count++;
+				}
+
+				return count;
+			}
+
+			switch (arguments.length) {
+				case 2:
+					return getCharCountCaseInsensitive(char);
+				case 3:
+					return isCaseSensitive ? getCharCountCaseSensitive(char) : getCharCountCaseInsensitive(char);
+			}
+		}
+
+		var str = 'Привет меня зовут Вася Пупкин мне 23 года (Ремарка Вовы: Лжец, тебе 25!)';
+
+		jsConsole.writeLine('а в ' + str + ' - > ' + getCharCount(str,'а'));
+		jsConsole.writeLine('з в ' + str + ' - > ' + getCharCount(str, 'з'));
+		jsConsole.writeLine('и в ' + str + ' - > ' + getCharCount(str, 'и'));
+		jsConsole.writeLine('и в ' + str + ' - > ' + getCharCount(str, 'и', false));
+		jsConsole.writeLine('и в ' + str + ' - > ' + getCharCount(str, 'и', true));
+
+
+	</script>
+</body>
+</html>

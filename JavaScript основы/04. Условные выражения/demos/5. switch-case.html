@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Консольный пример</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<label for="tb-day">Текст: </label>
+	<input type="text" id="tb-day" />
+	<br />
+	<a href="#" onclick="onDayButtonClick()">Проверить день</a>
+	<div id="console">
+	</div>
+	<script src="scripts/js-console.js">	  
+	</script>
+	<script>
+		function onDayButtonClick() {
+			var dayIndex = jsConsole.readInteger("#tb-day"),
+				day;
+
+			switch (dayIndex) {
+				case 1: day = "Понедельник"; break;
+				case 2: day = "Вторник"; break;
+				case 3: day = "Среда"; break;
+				case 4: day = "Четверг"; break;
+				case 5: day = "Пятница"; break;
+				case 6: day = "Суббота"; break;
+				case 7: day = "Воскресенье"; break;
+				default: day = "Ошибка ввода"; break;
+			}
+
+			jsConsole.writeLine(day);
+		}
+	</script>
+</body>
+</html>

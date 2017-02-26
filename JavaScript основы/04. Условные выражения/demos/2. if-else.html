@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Консольный пример</title>
+	<link href="styles/js-console.css" rel="stylesheet" />
+</head>
+<body>
+	<label for="tb-number">Число: </label>
+	<input type="text" id="tb-number" />
+	<br />
+	<a href="#" onclick="onEvenOddButtonClick()">Четное или нечетное</a>
+	<a href="#" onclick="onIsNumberButtonClick()">Это число</a>
+	<div id="console">
+	</div>
+	<script src="scripts/js-console.js">	  
+	</script>
+	<script>
+		function onEvenOddButtonClick() {
+			var str = jsConsole.readFloat('#tb-number'),
+				number = +str;
+
+			if (number % 2) {
+				jsConsole.writeLine('Число' + number + ' <strong>четное</strong>');
+			} else {
+				jsConsole.writeLine('Число ' + number + ' is <strong>четное</strong>');
+			}
+		}
+
+		function onIsNumberButtonClick() {
+			var str = jsConsole.readFloat('#tb-number');
+
+			if (+str) {
+				jsConsole.writeLine('Это число');
+			} else {
+				jsConsole.writeLine('Это не число');
+			}
+		}
+	</script>
+</body>
+</html>

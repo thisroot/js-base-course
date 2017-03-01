@@ -43,7 +43,7 @@
     - Каждая точка имеет координаты: `(x, y)`
 
 
-<div><img src="http://www.picshare.ru/uploads/170301/pi13LTx9JM.png" height="350" class="fragment"/></div><br>
+<div><img src="http://www.picshare.ru/uploads/170301/pi13LTx9JM.png" height="350" class="fragment"/></div>
 
 ```js
     <line x1="0" y1="0" x2="300" y2="450" stroke="black" />
@@ -63,7 +63,7 @@
 - `<circle>` создает окружность с  **ценральной позицией** и **радиусом**
 
 
-<div><img src="http://www.picshare.ru/uploads/170301/BoO8S72BqN.png" height="250" class="fragment"/></div><br>
+<div><img src="http://www.picshare.ru/uploads/170301/BoO8S72BqN.png" height="250" class="fragment"/></div>
 
 ```js
 <rect x="10" y="10" width="280" height="280" fill="# 222"/>
@@ -143,8 +143,7 @@
 <div>
 <img src="http://www.picshare.ru/uploads/170301/EQGi2Ruzt7.png" height="250" class="fragment"/>
 <img src="http://www.picshare.ru/uploads/170301/5suk45h2Gl.png" height="250" class="fragment"/>
-
-</div><br>
+</div>
 
 
 ### SVG DOM API

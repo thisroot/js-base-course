@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<title>DOM Manipulation - Traversing the DOM</title>
@@ -18,7 +18,32 @@
 	</div>
 	<script src="scripts/string-extensions.js">	
 	</script>
-	<script src="scripts/dom-traversing.js">	
+	<script>
+        (function () {
+    'use strict';
+    var list;
+
+    function printElementInfo(element) {
+        var log = console.log.bind(console),
+            i,
+            len;
+
+        log("-".repeat(100));
+        log("Type of the node: " + element.nodeName);
+        log("Number of child nodes:" + element.childNodes.length);
+        log("child nodes: ");
+        for (i = 0, len = element.childNodes.length; i < len; i++) {
+            log("childNode at (" + i + ") position: " + element.childNodes[i].nodeName);
+        }
+        log("-".repeat(100));
+    }
+
+    list = document.getElementById("trainers-list");
+
+    printElementInfo(list);
+
+    printElementInfo(document.body);
+}());
 	</script>
 </body>
 </html>

@@ -20,10 +20,7 @@
 ### Использование SVG в веб браузере
 - Для использования SVG необходимо просто открыть svg элемент и инициализировать изображения посредством описания их через XML
 
-<svg width="300" height="200">
-<rect x="50" y="50" width="150" height="150" fill="lightblue" />
-<circle cx="125" cy="125" r="60" stroke="none" fill="darkblue" />
-</svg>
+<div><img src="http://www.picshare.ru/uploads/170301/rR0Kc6Qo5d.png" height="250" class="fragment"/></div>
 
 ```js
 <svg width="300" height="450">
@@ -46,14 +43,7 @@
     - Каждая точка имеет координаты: `(x, y)`
 
 
-<svg width="300" height="450">
-    <line x1="0" y1="0" x2="300" y2="450" stroke="black" />
-    <line x1="300" y1="0" x2="0" y2="450" stroke="black" />
-    <line x1="0" y1="150" x2="300" y2="150" stroke="black" />
-    <line x1="0" y1="300" x2="300" y2="300" stroke="black" />
-    <line x1="0" y1="150" x2="300" y2="300" stroke="black" />
-    <line x1="0" y1="300" x2="300" y2="150" stroke="black" />
-</svg>
+<div><img src="http://www.picshare.ru/uploads/170301/pi13LTx9JM.png" height="350" class="fragment"/></div><br>
 
 ```js
     <line x1="0" y1="0" x2="300" y2="450" stroke="black" />
@@ -73,16 +63,7 @@
 - `<circle>` создает окружность с  **ценральной позицией** и **радиусом**
 
 
-<svg width="300" height="300">
-  <rect x="10" y="10" width="280" height="280" fill="#222"></rect>
-  <circle cx="150" cy="150" r="135" fill="#333"></circle>
-  <rect x="55" y="55" width="190" height="190" fill="#444"></rect>
-  <circle cx="150" cy="150" r="95" fill="#555"></circle>
-  <rect x="85" y="85" width="130" height="130" fill="#666"></rect>
-  <circle cx="150" cy="150" r="65" fill="#777"></circle>
-  <rect x="105" y="105" width="90" height="90" fill="#888"></rect>
-  <circle cx="150" cy="150" r="45" fill="#999"></circle>
-</svg>
+<div><img src="http://www.picshare.ru/uploads/170301/BoO8S72BqN.png" height="250" class="fragment"/></div><br>
 
 ```js
 <rect x="10" y="10" width="280" height="280" fill="# 222"/>
@@ -158,18 +139,12 @@
     <path d="M350 200 Q360 450 400 200 T525 200" />
 ```
 
-<svg width="900" height="450">
-  <g>
-    <rect x="90" y="345" width="140" height="40" fill="purple" stroke="black">				</rect>
-    <text x="100" y="370" fill="white">Кубичская кривая Безье</text>
-    <path stroke="purple" fill="none" stroke-width="5" d="M50 200 C60 450 145 300 200 200 S225 50 300 200"></path>
-  </g>
-  <g>
-    <rect x="360" y="345" width="165" height="40" fill="green" stroke="black">				</rect>
-    <text x="370" y="370" fill="white">Квадратичная кривая Безье</text>
-    <path stroke="green" fill="none" stroke-width="5" d="M350 200 Q360 450 400 200 T525 200"></path>
-  </g>
-</svg>
+
+<div>
+<img src="http://www.picshare.ru/uploads/170301/EQGi2Ruzt7.png" height="250" class="fragment"/>
+<img src="http://www.picshare.ru/uploads/170301/5suk45h2Gl.png" height="250" class="fragment"/>
+
+</div><br>
 
 
 ### SVG DOM API

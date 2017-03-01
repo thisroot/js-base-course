@@ -56,7 +56,7 @@ DHTML приложения, которые вполне автономны в б
 ### Первый скрипт
 
 
-```javascript
+```html
     <html>
         <body>
           <scriрt type="text/javascript">
@@ -72,7 +72,7 @@ Javascript код должен быть заключен в теги:
 - в ``<body>`` тег ``<script>``
 - Во внешних файлах и импортиорован в документ посредждством указания источника
 
-```javascript
+```html
 <scriрt src="scripts.js" type="text/javascript">
 <!-- Код размещенный здесь не вызовется -->
 </scriрt>
@@ -85,12 +85,12 @@ Javascript код должен быть заключен в теги:
     - Некоторые операторы определяют функции которые могут быть вызваны позже
 - Может быть добавлен как обработчик событий через атрибут тегов непосредственно к HTML элементу
     - выполняется когда событие вызывается браузером
-    ```javascript
+    ```html
     <img src="logo.gif" onclick="alert('clicked!')" />
     ```
 ### Пример выполнения после возникновения события
 
-```javascript
+```html
     <html>
         <head>
             <scriрt type="text/javascript">
@@ -110,7 +110,7 @@ Javascript код должен быть заключен в теги:
 
 - HTML страница
 
-```javascript
+```js
 <html>
     <head>
       <scriрt src="sample.js" type="text/javascript">
@@ -124,7 +124,7 @@ Javascript код должен быть заключен в теги:
 ```
 - Внешний файл
 
-```javascript
+```js
 function sample() {
   alert('Hello from sample.js!')
 }
@@ -145,7 +145,7 @@ function sample() {
 - Блок подтверждения ``confirm`` - имееет кнопки ``[OK]`` и ``[Cancel]`` <br>
     ```confirm("Вы уверены?");```
 - Блок ввода - содержит текст поле ввода и значение по умолчанию <br>
-```prompt 
+```prompt
     ("введите значение", 10);
 ```
 ### Встроенные обьекты браузера
@@ -159,7 +159,7 @@ function sample() {
 ### Объект Math
 Объект Math позволяет работать с математическими функциями
 
-```javascript
+```js
 for (i = 1; i <= 5; i++) {
   var x = Math.random();
   x = 10 * x + 1;
@@ -173,13 +173,13 @@ for (i = 1; i <= 5; i++) {
 ### Объект Date
 Объект Date() позволяет работать с календарными функциями
 
-```javascript
+```js
 var now = Date();
 var result = "сейчас " + now
 ```
 ### Задержка выполнения
 
-```javascript
+```js
 function bang() {
     console.log("Прошло 5 секунд")
 }
@@ -191,7 +191,7 @@ var timer = setTimeout(bang, 5000);
 
 ### Повтор выполнения через определенные промежутки времени
 
-```javascript
+```js
 z = 0
 function bang() {
     z++
@@ -209,7 +209,7 @@ var stop = setTimeout(clear, 5060);
 ```
 ### Пример таймера
 
-```javascript
+```js
 <scriрt type="text/javascript">
   function timerFunc() {
     var now = new Date();

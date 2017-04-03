@@ -33,12 +33,12 @@
 
 ## Рекомендуемая экосистема
 Для комфортного изучения материалов курса рекомендуется установка следующего программного обеспечения
-- [Crome browser](https:\\google.ru\chrome\browser\desktop\) - популярный браузер с продвинутыми срествами разработчика
-- [Node.js](https:\\nodejs.org\en\) - транслятор JavaScript
-- [IDE Brakets](http:\\brackets.io\) - IDE для разработки HTML\CSS\JS приложений с удобной функцией **Live preview**
+- [Crome browser](https:\\google.ru\chrome\browser\desktop) - популярный браузер с продвинутыми срествами разработчика
+- [Node.js](https:\\nodejs.org\en) - транслятор JavaScript
+- [IDE Brakets](http:\\brackets.io) - IDE для разработки HTML\CSS\JS приложений с удобной функцией **Live preview**
 - [Jupyter](https:\\www.continuum.io\downloads) - браузерный редактор кода
-- [IJavaScript](http:\\n-riesco.github.io\ijavascript\) - **Node.js** ядро для **Jupyter**
-- [MobaXterm (Windows)](http:\\mobaxterm.mobatek.net\) - работа в командной строке (вместо стандартной командной строки)
+- [IJavaScript](http:\\n-riesco.github.io\ijavascript) - **Node.js** ядро для **Jupyter**
+- [MobaXterm](http:\\mobaxterm.mobatek.net) - работа в командной строке (вместо стандартной командной строки)
 
 #### Установка ПО
 - Скачать все дистрибьютивы с сайта, и запусить установщики

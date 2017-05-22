@@ -1,77 +1,74 @@
-# The biggest of Three
+# Самое большее из трех
 
-## Description
-Write a script that finds the biggest of three numbers.
-Use nested `if` statements.
+## Описание
+Напишите скрипт, который найдет наибольшее из трех чисел.
+Используйте вложенные операторы if.
 
-## Input
-- The input will consist of an array containing three values represented as strings
+## Входные данные
+- Ввод будет состоять из массива, содержащего три значения, представленные в виде строк
 
-## Output
-- The output should be a single line containing a number
+## Вывод
+- Вывод должен состоять из одной строки, содержащей число
 
-## Constraints
-- Time limit: **0.2s**
-- Memory limit: **16MB**
 
-## Sample tests
+## Тесты
 
-### Sample test 1
+### Тест 1
 
-#### Input
+#### Ввод
 ```js
 ['5', '2', '2']
 ```
 
-#### Output
+#### Вывод
 ```
 5
 ```
 
-### Sample test 2
+### Тест 2
 
-#### Input
+#### Ввод
 ```js
 ['-2', '-2', '1']
 ```
 
-#### Output
+#### Вывод
 ```
 1
 ```
 
-### Sample test 3
+### Тест 3
 
-#### Input
+#### Ввод
 ```js
 ['-2', '4', '3']
 ```
 
-#### Output
+#### Вывод
 ```
 4
 ```
 
-### Sample test 4
+### Тест 4
 
-#### Input
+#### Ввод
 ```js
 ['0', '-2.5', '5']
 ```
 
-#### Output
+#### Вывод
 ```
 5
 ```
 
-### Sample test 5
+### Тест 5
 
-#### Input
+#### Ввод
 ```js
 ['-0.1', '-0.5', '-1.1']
 ```
 
-#### Output
+#### Вывод
 ```
 -0.1
 ```

@@ -1,144 +1,137 @@
-# Point in a circle
+# Точка в круге
 
-## Description
-Implement a javascript function that by given coordinates of a point **x** and **y** 
-and using an expression checks if given point **(x,  y)** is inside a circle `K({0, 0}, 2)` - the center has coordinates **(0, 0)** and the circle has radius **2**. 
-The program should then print **"yes DISTANCE"** if the point is inside the circle or **"no DISTANCE"** if the point is outside the circle.
-  - In place of **DISTANCE** print the distance from the beginning of the coordinate system - **(0, 0)** - to the given point.
+## Описание
+Реализуйте функцию javascript, которая задает координаты точки **x** и **y**
+Функция должна проверять, находится ли данная точка **(x, y)** внутри круга `K ({0, 0}, 2)` - центр имеет координаты **(0, 0)** и окружность Имеет радиус **2**.
+Затем программа должна напечатать **«да <расстояние>**, если точка находится внутри круга или **«нет <расстояние>»**, если точка находится вне круга.
+  - Вместо **<расстояние>** напечатайте расстояние от начала системы координат - **(0, 0)** - до заданной точки.
 
-## Input
-- You will receive an array as a parameter. The array will contain exactly 2 string elements, the first being the **x** coordinate and the second - the **y** coordinate.
+## Входные данные
+- Массив из 2х строковых элементов, первым из которых будет координата **x**, а вторая - координата **y**.
 
-## Output
-- Output a single line in the format described above. The distance should always be printed with _2-digits of precision_ after the floating point.
-- You can use `console.log` to print the results or you can use `return` to return the answer. Both are correct.
+## Вывод
+- Вывести строку в формате, описанном выше. Расстояние должно всегда печататься с _2-знаками точности_ после плавающей точки.
+- Вы можете использовать `console.log` для распечатки результатов, или вы можете использовать` return` для возврата ответа. Оба варианта являются правильными.
 
-## Constraints
-- The numbers **x** and **y** will always be valid floating point numbers in the range `(-1000, 1000)`
-- Time limit: **0.1s**
-- Memory limit: **16MB**
 
-## Sample tests
+## Примеры тестов
 
-### Sample test 1
+### Тест 1
 
-#### Input
+#### Ввод
 ```js
 ['-2', '0']
 ```
 
-#### Output
+#### Вывод
 ```
-yes 2.00
+да 2.00
 ```
 
-### Sample test 2
+### Тест 2
 
-#### Input
+#### Ввод
 ```js
 ['-1', '2']
 ```
 
-#### Output
+#### Вывод
 ```
-no 2.24
+нет 2.24
 ```
 
-### Sample test 3
+### Тест 3
 
-#### Input
+#### Ввод
 ```js
 ['1.5', '-1']
 ```
 
-#### Output
+#### Вывод
 ```
-yes 1.80
+да 1.80
 ```
 
-### Sample test 4
+### Тест 4
 
-#### Input
+#### Ввод
 ```js
 ['-1.5', '-1.5']
 ```
 
-#### Output
+#### Вывод
 ```
-no 2.12
+нет 2.12
 ```
 
-### Sample test 5
+### Тест 5
 
-#### Input
+#### Ввод
 ```js
 ['100', '-30']
 ```
 
-#### Output
+#### Вывод
 ```
-no 104.40
+нет 104.40
 ```
 
-### Sample test 6
+### Тест 6
 
-#### Input
+#### Ввод
 ```js
 ['0', '0']
 ```
 
-#### Output
+#### Вывод
 ```
-yes 0.00
+да 0.00
 ```
 
-### Sample test 7
+### Тест 7
 
-#### Input
+#### Ввод
 ```js
 ['0.2', '-0.8']
 ```
 
-#### Output
+#### Вывод
 ```
-yes 0.82
+да 0.82
 ```
 
-### Sample test 8
+### Тест 8
 
-#### Input
+#### Ввод
 ```js
 ['0.9', '-1.93']
 ```
 
-#### Output
+#### Вывод
 ```
-no 2.13
+нет 2.13
 ```
 
-### Sample test 9
+### Тест 9
 
-#### Input
+#### Ввод
 ```js
 ['1', '1.655']
 ```
 
-#### Output
+#### Вывод
 ```
-yes 1.93
+да 1.93
 ```
 
-### Sample test 10
+### Тест 10
 
-#### Input
+#### Ввод
 ```js
 ['0', '1']
 ```
 
-#### Output
+#### Вывод
 ```
-yes 1.00
+да 1.00
 ```
-
-## Submission
-- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/357#5)

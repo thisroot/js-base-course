@@ -1,60 +1,53 @@
-# Rectangles
+# Прямоугольники
 
-## Description
-Implement a javascript function that takes an argument array as a parameter and calculates rectangle’s area and perimeter by given **width** and **height**. 
-The **width** and **height** will both be passed in the argument array.
+## Описание
+Реализуйте функцию javascript, которая принимает массив аргументов в качестве параметра и вычисляет площадь и периметр прямоугольника с учетом **ширины** и **высоты**.
+**ширины** и **высоты** будут переданы в массив аргументов.
 
-## Input
-- The array that will be passed as argument will always have exactly 2 elements:
-  - The first element -  a floating-point number that will represent the **width** of the rectangle.
-  - The second element - another floating-point number that will represent the **height** of the rectangle.
+## Входные данные
+- Массив, который будет передан как аргумент, всегда будет иметь ровно 2 элемента:
+   - Первый элемент - число с плавающей точкой, которое будет представлять **ширину** прямоугольника.
+   - Второй элемент - другое число с плавающей точкой, которое будет представлять **высоту** прямоугольника.
 
-## Output
-- Output a single line - the rectangle's **area** and **perimeter**, separated by a **whitespace**.
-  - Print the **area** and **perimeter** values with _exactly 2-digits precision_ after the floating point.
-- You can use `console.log` to print the results or you can use `return` to return the answer. Both are correct.
+## Вывод
+- Вывести одну строку -  **площадь** и **периметр** прямоугольника, разделенные пробелом.
+   - Распечатайте значения **площадь** и **периметр** с точностью до 2 цифр после запятой.
+- Вы можете использовать `console.log` для распечатки результатов, или вы можете использовать` return` для возврата ответа. Оба являются правильными.
 
-## Constraints
-- The **width** and **height** will always be valid floating-point numbers.
-- Time limit: **0.2s**
-- Memory limit: **16MB**
 
-## Sample tests
+## Примеры тестов
 
-### Sample test 1
+### Тест 1
 
-#### Input
+#### Ввод
 ```js
 [ '2.5', '3' ]
 ```
 
-#### Output
+#### Вывод
 ```
 7.50 11.00
 ```
 
-### Sample test 2
+### Тест 2
 
-#### Input
+#### Ввод
 ```js
 [ '5', '5' ]
 ```
 
-#### Output
+#### Вывод
 ```
 25.00 20.00
 ```
-### Sample test 3
+### Тест 3
 
-#### Input
+#### Ввод
 ```js
 [ '3', '4' ]
 ```
 
-#### Output
+#### Вывод
 ```
 12.00 14.00
 ```
-
-## Submission
-- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/357#2)

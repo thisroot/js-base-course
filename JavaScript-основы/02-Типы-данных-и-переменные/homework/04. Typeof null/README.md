@@ -1,7 +1,7 @@
 # Typeof null
 
-## Description
-Create null, undefined variables and try typeof on them.
+## Описание
+Создайте пустые неопределенные переменные и попробуйте на них typeof.
 
-## Submission
-- You do not have to submit anything for this problem
+## Представление результатов
+- Вам не нужно ничего отправлять при решении этой проблемы.

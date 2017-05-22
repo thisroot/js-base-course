@@ -1,92 +1,83 @@
-# Odd or Even
+# Четные и Нечетные
 
-## Description
-Implement a javascript function that uses an expression to check if
-given integer is odd or even, and prints **"even NUMBER"** or **"odd NUMBER"**, where you should print the input number's value instead of **NUMBER**.
+## Описание
+Реализуйте функцию javascript, которая использует выражение для проверки if
+Заданное целое число является нечетным или четным и печатает **«четное ЧИСЛО»** или **«нечетное число»**, где вы должны напечатать значение входного номера вместо ** ЧИСЛО **.
 
-- The functions should look like that:
+- Функция должна выглядеть следующим образом:
 
 ```js
 function solve(args) {
-    // your code goes here
+    // Ваш код здесь
 }
 ```
 
-## Input
-- You will receive the input as an array with only one element - the integer number as a javascript string.
+## Входные данные
+- Вы подаете на вход число в виде строки javascript.
 
-## Output
-- Output a single value - if the number is even, output **even**, followed by a space and the value of the number.
-  - Otherwise, print **odd**, again followed by a space and the number's value. See the sample tests.
-- You can use `console.log` to print the results or you can use `return` to return the answer. Both are correct.
+## Вывод
+- Вывести одно значение - если число четное, выводится **четное**, за которым следует пробел и значение числа.
+   - В противном случае напечатайте **неченое**, за которым следуют пробел и значение числа. Смотрите примеры тестов.
+- Вы можете использовать `console.log` для распечатки результатов, или вы можете использовать` return` для возврата ответа. Оба варианта являются правильными.
 
-## Constraints
-- The input number will always be a valid integer number.
-- The input number will always be in the range `[-30, 30]`.
-- Time limit: **0.2s**
-- Memory limit: **16MB**
+## Примеры тестов
 
-## Sample tests
+### Тест 1
 
-### Sample Test 1
-
-#### Input
+#### Ввод
 ```js
 ['3']
 ```
 
-#### Output
+#### Вывод
 ```
-odd 3
+нечетное 3
 ```
 
-### Sample Test 2
+### Тест 2
 
-#### Input
+#### Ввод
 ```js
 ['2']
 ```
 
-#### Output
+#### Вывод
 ```
-even 2
+четное 2
 ```
 
-### Sample Test 3
+### Тест 3
 
-#### Input
+#### Ввод
 ```js
 ['-2']
 ```
 
-#### Output
+#### Вывод
 ```
-even -2
+четное -2
 ```
 
-### Sample Test 4
+### Тест 4
 
-#### Input
+#### Ввод
 ```js
 ['-1']
 ```
 
-#### Output
+#### Вывод
 ```
-odd -1
+нечетное -1
 ```
 
-### Sample Test 5
+### Тест 5
 
-#### Input
+#### Ввод
 ```js
 ['0']
 ```
 
-#### Output
+#### Вывод
 ```
-even 0
+четное 0
 ```
-
-## Submission
-- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/357#0)

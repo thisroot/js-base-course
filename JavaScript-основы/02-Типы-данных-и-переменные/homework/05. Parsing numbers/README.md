@@ -1,10 +1,11 @@
-# Parsing numbers
+# Парсер цифр
 
-## Description
-Try parsing the following strings to numbers using `parseInt`, `parseFloat`, `Number`, `+` and `| 0`. Fill the answers for yourself in the table below.
+## Описание
+Попробуйте сделать выборку чисел с помощью `parseInt`, `parseFloat`, `Number`, `+` and `| 0`. Заполните таблицу значений
 
-| str                    | parseInt(str) | parseFloat(str) | Number(str) | +str | `str | 0` |
-|:---------------------- |:-------------:|:---------------:|:-----------:|:----:|:---------:|
+
+| str                    | parseInt(str) | parseFloat(str) | Number(str) | +str | `str или 0` |
+|---------------------- |-------------|---------------|-----------|----|---------|
 | '1234'                 | ?             | ?               | ?           | ?    | ?         |
 | '1238abc'              | ?             | ?               | ?           | ?    | ?         |
 | '0.15'                 | ?             | ?               | ?           | ?    | ?         |
@@ -12,5 +13,6 @@ Try parsing the following strings to numbers using `parseInt`, `parseFloat`, `Nu
 | 'Infinity'             | ?             | ?               | ?           | ?    | ?         |
 | '99999999999999999999' | ?             | ?               | ?           | ?    | ?         |
 
-## Submission
-- You do not have to submit anything for this problem.
+
+## Представление результатов
+- Вам не нужно ничего отправлять при решении этой проблемы.

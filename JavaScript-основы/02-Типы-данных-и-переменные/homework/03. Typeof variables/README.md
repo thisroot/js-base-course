@@ -1,7 +1,7 @@
-# Typeof variables
+# Типы переменных
 
-## Description
-Try typeof on all variables you created.
+## Описание
+Попробуйте зарезервированное слово typeof для всех переменных, которые вы создали.
 
-## Submission
-- You do not have to submit anything for this problem
+## Представление результатов
+- Вам не нужно ничего отправлять при решении этой задачи.

@@ -1,7 +1,7 @@
-# JavaScript literals
+# JavaScript литералы
 
-## Description
-Assign all the possible JavaScript literals to different variables.
+## Описание
+Назначьте все возможные JavaScript литералы  различным переменным.
 
-## Submission
-- You do not have to submit anything for this problem
+## Оформление результатов
+- Вам не нужно ничего отправлять при решении этой задачи.

@@ -1,172 +1,169 @@
-# Number as words
+# Число в виде слова
 
-## Description
-Write a script that converts a number in the range `[0…999]` to words, corresponding to its English pronunciation.
+## Описание
+Напишите скрипт, который преобразует число в диапазоне `[0 ... 999]` в слова, соответствующие его английскому произношению.
 
-## Input
-- The input will consist of an array containing the number as a string
+## Ввод
+- Ввод будет состоять из массива, содержащего число в виде строки
 
-## Output
-- The output should be a single line containing the answer
+## Вывод
+- Вывод должен состоять из одной строки, содержащей ответ
 
-## Constraints
-- Time limit: **0.2s**
-- Memory limit: **16MB**
 
-## Sample tests
+## Тесты
 
-### Sample test 1
+### Тест 1
 
-#### Input
+#### Ввод
 ```js
 ['0']
 ```
 
-#### Output
+#### Вывод
 ```
-Zero 
+Ноль
 ```
 
-### Sample test 2
+### Тест 2
 
-#### Input
+#### Ввод
 ```js
 ['9']
 ```
 
-#### Output
+#### Вывод
 ```
-Nine 
+Девять
 ```
 
-### Sample test 3
+### Тест 3
 
-#### Input
+#### Ввод
 ```js
 ['10']
 ```
 
-#### Output
+#### Вывод
 ```
-Ten 
+Десять
 ```
 
-### Sample test 4
+### Тест 4
 
-#### Input
+#### Ввод
 ```js
 ['12']
 ```
 
-#### Output
+#### Вывод
 ```
-Twelve 
+Двенадцать
 ```
 
-### Sample test 5
+### Тест 5
 
-#### Input
+#### Ввод
 ```js
 ['19']
 ```
 
-#### Output
+#### Вывод
 ```
-Nineteen 
+Девятнадцать
 ```
 
-### Sample test 6
+### Тест 6
 
-#### Input
+#### Ввод
 ```js
 ['25']
 ```
 
-#### Output
+#### Вывод
 ```
-Twenty five 
+Двадцать пять
 ```
 
-### Sample test 7
+### Тест 7
 
-#### Input
+#### Ввод
 ```js
 ['98']
 ```
 
-#### Output
+#### Вывод
 ```
-Ninety eight 
+Девяносто восемь
 ```
 
-### Sample test 8
+### Тест 8
 
-#### Input
+#### Ввод
 ```js
 ['273']
 ```
 
-#### Output
+#### Вывод
 ```
-Two hundred and seventy three 
+Двести семьдесят три
 ```
 
-### Sample test 9
+### Тест 9
 
-#### Input
+#### Ввод
 ```js
 ['400']
 ```
 
-#### Output
+#### Вывод
 ```
-Four hundred 
+Четыреста
 ```
 
-### Sample test 10
+### Тест 10
 
-#### Input
+#### Ввод
 ```js
 ['501']
 ```
 
-#### Output
+#### Вывод
 ```
-Five hundred and one 
+Пятьсот один
 ```
 
-### Sample test 11
+### Тест 11
 
-#### Input
+#### Ввод
 ```js
 ['617']
 ```
 
-#### Output
+#### Вывод
 ```
-Six hundred and seventeen 
+Шестьсот семьнадцать
 ```
 
-### Sample test 12
+### Тест 12
 
-#### Input
+#### Ввод
 ```js
 ['711']
 ```
 
-#### Output
+#### Вывод
 ```
-Seven hundred and eleven 
+Семьсот одиннадцать
 ```
 
-### Sample test 13
+### Тест 13
 
-#### Input
+#### Ввод
 ```js
 ['999']
 ```
 
-#### Output
+#### Вывод
 ```
-Nine hundred and ninety nine
+Девятьсот девяносто девять
 ```

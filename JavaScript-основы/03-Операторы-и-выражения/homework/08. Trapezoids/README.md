@@ -1,82 +1,77 @@
-# Trapezoids
+# Трапеции
 
-## Description
-Implement a javascript function that calculates trapezoid's area by given sides **a** and **b** and height **h**. 
-The three values should be read from the console in the order shown below. All three value will be floating-point numbers.
+## Описание
+Реализуйте функцию javascript, которая вычисляет площадь трапеции по заданным сторонам **a** , **b** и высоте **h**.
+Три значения должны считываться в консоли в порядке, указанном ниже. Все три значения будут числами с плавающей точкой.
 
-## Input
-- The input will consist of an array with exactly **3** numbers as elements: **a**, **b** and **h**, all as strings.
+## Ввод
+- Ввод будет состоять из массива с **3** числами в качестве элементов: **a**, **b** и **h**, все в виде строки.
 
-## Output
-- Output a single line containing a single value - the area of the trapezoid. Output the area with exactly _7-digit precision_ after the floating point.
-- You can use `console.log` to print the results or you can use `return` to return the answer. Both are correct.
+## Вывод
+- Вывод - одно значение - площадь трапеции. Выведите область с точностью _7-цифр_ после плавающей точки.
+- Вы можете использовать `console.log` для распечатки результатов, или вы можете использовать` return` для возврата ответа. Оба являются правильными.
 
-## Constraints
-- All numbers will always be valid floating-point numbers in the range `[-500, 500]`.
-- Time limit: **0.1s**
-- Memory limit: **16MB**
+## Ограничения
+- Все числа всегда являются действительными числами с плавающей точкой в диапазоне `[-500, 500]`.
 
-## Sample tests
+## Примеры тестов
 
-### Sample test 1
+### Тест 1
 
-#### Input
+#### Ввод
 ```js
 ['5', '7', '12']
 ```
 
-#### Output
+#### Вывод
 ```
 72.0000000
 ```
 
-### Sample test 2
+### Тест 2
 
-#### Input
+#### Ввод
 ```js
 ['2', '1', '33']
 ```
 
-#### Output
+#### Вывод
 ```
 49.5000000
 ```
 
-### Sample test 3
+### Тест 3
 
-#### Input
+#### Ввод
 ```js
 ['8.5', '4.3', '2.7']
 ```
 
-#### Output
+#### Вывод
 ```
 17.2800000
 ```
 
-### Sample test 4
+### Тест 4
 
-#### Input
+#### Ввод
 ```js
 ['100', '200', '300']
 ```
 
-#### Output
+#### Вывод
 ```
 45000.0000000
 ```
 
-### Sample test 5
+### Тест 5
 
-#### Input
+#### Ввод
 ```js
 ['0.222', '0.333', '0.555']
 ```
 
-#### Output
+#### Вывод
 ```
 0.1540125
 ```
-
-## Submission
-- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/357#7)

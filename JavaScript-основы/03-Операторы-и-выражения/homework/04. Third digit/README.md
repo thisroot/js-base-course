@@ -1,94 +1,86 @@
-# Third digit
+# Третья цифра
 
-## Description
-Implement a javascript function that takes an array with a single element - an integer **N** as parameter and prints **true** if the third digit of **N** is **7**, or **"false THIRD_DIGIT"**, where you should print the third digits of **N**.
-  - The counting is done from **right to left**, meaning 123**4**56's third digit is **4**.
+## Описание
+Реализуйте функцию javascript, которая принимает массив с одним элементом - целое число **N** как параметр и печатает **true**, если третья цифра **N** - **7** или **"False"**, далее вы должны напечатать третьи цифры **N**.
+   - Подсчет производится с **справа налево**
 
-## Input
-- The input will always consist of an array with exactly one element, the integer **N** as a string.
+## Входные данные
+- Ввод всегда будет состоять из массива, содержащего ровно один элемент, целое число **N** в виде строки.
 
-## Output
-- The output should be a single line - print whether the third digit is **7**, following the format described above.
-- You can use `console.log` to print the results or you can use `return` to return the answer. Both are correct.
+## Вывод
+- Выход должен быть одиночной строкой, следуйте формату выше
+- Вы можете использовать `console.log` для распечатки результатов, или вы можете использовать` return` для возврата ответа. Оба являются правильными.
 
-## Constraints
-- **N** will always be valid non-negative integer number.
-- Time limit: **0.2s**
-- Memory limit: **16MB**
+## Пример тестов
 
-## Sample tests
+### Тест 1
 
-### Sample test 1
-
-#### Input
+#### Ввод
 ```js
 ['5']
 ```
 
-#### Output
+#### Вывод
 ```
 false 0
 ```
 
-### Sample test 2
+### Тест 2
 
-#### Input
+#### Ввод
 ```js
 ['701']
 ```
 
-#### Output
+#### Вывод
 ```
 true
 ```
 
-### Sample test 3
+### Тест 3
 
-#### Input
+#### Ввод
 ```js
 ['9703']
 ```
 
-#### Output
+#### Вывод
 ```
 true
 ```
 
-### Sample test 4
+### Тест 4
 
-#### Input
+#### Ввод
 ```js
 ['877']
 ```
 
-#### Output
+#### Вывод
 ```
 false 8
 ```
 
-### Sample test 5
+### Тест 5
 
-#### Input
+#### Ввод
 ```js
 ['777877']
 ```
 
-#### Output
+#### Вывод
 ```
 false 8
 ```
 
-### Sample test 6
+### Тест 6
 
-#### Input
+#### Ввод
 ```js
 ['9999799']
 ```
 
-#### Output
+#### Вывод
 ```
 true
 ```
-
-## Submission
-- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/357#3)

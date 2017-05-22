@@ -7,8 +7,8 @@
 #### Часть 1: Основы языка JavaScript
 - [Введение в JavaScript](JavaScript-основы/01-Введение-в-JavaScript)
 - [Типы данных и переменные](JavaScript-основы/02-Типы-данных-и-переменные)
-- [Операторы и выражения](./JavaScript-основы/03-Операторы-и-выражения)
-- [Условные выражения](./JavaScript-основы/04-Условные-выражения)
+- [Операторы и выражения](JavaScript-основы/03-Операторы-и-выражения)
+- [Условные выражения](JavaScript-основы/04-Условные-выражения)
 - [Циклы](JavaScript-основы/05-Циклы)
 - [Массивы](JavaScript-основы/06-Массивы)
 - [Функции](JavaScript-основы/07-Функции)
@@ -26,6 +26,8 @@
 - [JQuery Популярные библиотеки](JavaScript-UI-and-DOM/06-JQuery-Популярные-библиотеки)
 - [HTML Шаблоны](JavaScript-UI-and-DOM/07-HTML-Шаблоны)
 - [DOM Эффективность](JavaScript-UI-and-DOM/08-DOM-Эффективность)
+
+#### Бонус
 - [HTML5 Canvas Рисование на холсте](JavaScript-UI-and-DOM/09-HTML5-Canvas-Рисование-на-холсте)
 - [SVG Масштабируемая векторная графика](JavaScript-UI-and-DOM/10-SVG-Масштабируемая-векторная-графика)
 - [Фреймворки для графики](JavaScript-UI-and-DOM/11-Фреймворки-для-графики)
@@ -38,6 +40,7 @@
 - [IDE Brakets](http://brackets.io) - IDE для разработки HTML/CSS/JS приложений с удобной функцией **Live preview**
 - [Jupyter](https://www.continuum.io/downloads) - браузерный редактор кода
 - [IJavaScript](http://n-riesco.github.io/ijavascript) - **Node.js** ядро для **Jupyter**
+- [GIT](https://git-scm.com/downloads) - Система управления версиями
 - [MobaXterm](http://mobaxterm.mobatek.net) - работа в командной строке (вместо стандартной командной строки)
 
 #### Установка ПО
@@ -45,6 +48,7 @@
 - Для установки **IJavaScript**:
   -  нажать комбинацию `win + R` выполнить команду `cmd`
   - В командной строке набрать `npm install -g ijavascript`, нажать `Enter`
+  - Активировать `ijavascript` командой в терминале: `ijsinstall`
 - Запуск **Jupyter** с ядром **IJavaScript**
   -  нажать комбинацию `win + R` выполнить команду `cmd`
   - В командной строке набрать (можно предварительно перейти в директорию с файлами) `jupyter notebook`, нажать `Enter`

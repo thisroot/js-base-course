@@ -1,47 +1,39 @@
-# 3rd Bit
+# 3-й бит
 
-## Description
-Using bitwise operators, write a javascript function(that accepts a single array with arguments as a parameter) that uses an expression to find the value of the bit at index **3** of an unsigned integer read from the console.
-  - The bits are counted from right to left, starting from bit **0**.
-  - The result of the expression should be either **1** or **0**. Print it on the console.
+## Описание
+Используя побитовые операторы, напишите функцию javascript (которая принимает массив с аргументами в качестве параметра), который использует выражение, чтобы найти значение бита в индексе **3**.
+   - Биты считаются справа налево, начиная с бита **0**.
+   - Результат выражения должен быть либо **1**, либо **0**. Распечатайте его в консоли.
 
-## Input
-- The only element of the parameter array, will be a positive integer as a string - the number whose 3rd bit you must print.
+## Входные данные
+- Единственным элементом массива параметров будет положительное целое число, третий бит которого вы должны напечатать.
 
-## Output
-- Output a single number - **1 or 0** - the value of the 3rd bit, counted from 0 and from right to left.
-- You can use `console.log` to print the results or you can use `return` to return the answer. Both are correct.
+## Вывод
+- Вывести одно число - **1 или 0** - значение 3-го бита, отсчитываемое от 0 и справа налево.
+- Вы можете использовать `console.log` для распечатки результатов, или вы можете использовать` return` для возврата ответа. Оба варианта являются правильными.
 
-## Constraints
-- The input number will always be a valid positive integer number.
-- Time limit: **0.2s**
-- Memory limit: **16MB**
+## Примеры тестов
 
-## Sample tests
+### Тест 1
 
-### Sample test 1
-
-#### Input
+#### Ввод
 ```js
 ['15']
 ```
 
-#### Output
+#### Вывод
 ```
 1
 ```
 
-### Sample test 2
+### Тест 2
 
-#### Input
+#### Ввод
 ```js
 ['1024']
 ```
 
-#### Output
+#### Вывод
 ```
 0
 ```
-
-## Submission
-- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/357#4)

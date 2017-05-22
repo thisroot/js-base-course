@@ -1,53 +1,49 @@
-# Exchange if greater
+# Обмен, если больше
 
-## Description
-Write an `if` statement that takes two double variables `a` and `b` and exchanges their values if the first one is greater than the second.
-As a result print the values `a` and `b`, separated by a space.
+## Описание
+Напишите оператор `if`, который принимает две переменные `a` и `b` и обменивает их значения, если первая больше второй.
+В результате выведите значения `a` и` b`, разделенные пробелом.
 
-## Input
-- The input will consist of an array containing two values - `a` and `b` represented as strings
+## Входные данные
+- Ввод будет состоять из массива, содержащего два значения - `a` и `b`, представленные в виде строк
 
-## Output
-- The output should be a single line containing two numbers
+## Вывод
+- Выход должен состоять из одной строки, содержащей два числа
 
-## Constraints
-- Time limit: **0.2s**
-- Memory limit: **16MB**
+## Тесты
 
-## Sample tests
+### Тест 1
 
-### Sample test 1
-
-#### Input
+#### Ввод
 ```js
 ['5', '2']
 ```
 
-#### Output
+#### Вывод
 ```
 2 5
 ```
 
-### Sample test 2
+### Тест 2
 
-#### Input
+#### Ввод
 ```js
 ['3', '4']
 ```
 
-#### Output
+#### Вывод
 ```
 3 4
 ```
 
-### Sample test 3
+### Тест 3
 
-#### Input
+#### Ввод
 ```js
 ['5.5', '4.5']
 ```
 
-#### Output
+#### Вывод
 ```
 4.5 5.5
 ```

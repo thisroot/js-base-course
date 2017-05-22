@@ -1,8 +1,8 @@
-# Quoted text
+# Цитируемый текст
 
-## Description
-Create a string variable with quoted text in it.
-For example: `'How you doin'?', Joey said'.`
+## Описание
+Создайте строковую переменную с цитируемым текстом.
+Например: ``«Как вы поживаете?», Сказал Джои.``
 
-## Submission
-- You do not have to submit anything for this problem
+## Представление результатов
+- Вам не нужно ничего отправлять при решении этой проблемы.

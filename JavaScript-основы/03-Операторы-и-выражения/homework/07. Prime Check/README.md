@@ -1,82 +1,74 @@
-# Prime check
+# Простое число
 
-## Description
-Implement a javascript function that accepts an array containing an integer **N** as string (which will always be less than **100** or equal) and uses an expression to check if given **N** is prime (i.e. it is divisible without remainder only to itself and 1).
-  - _Note: You should check if the number is positive_.
+## Описание
+Реализуйте функцию javascript, которая принимает массив, содержащий целое число **N** в виде строки (которая всегда будет меньше или равна **100**) которая использует выражение, чтобы проверить, задано ли **N** как простое число (т.е. Оно делится без остатка только на себя и 1).
+   - _Примечание: вы должны проверить, является ли число положительным_.
 
-## Input
-- The only element of the array will be the integer **N** as a string value.
+## Ввод
+- Единственным элементом массива будет целое число **N** как строковое значение.
 
-## Output
-- Output **true** if the number is prime and **false** otherwise.
-- You can use `console.log` to print the results or you can use `return` to return the answer. Both are correct.
+## Вывод
+- Вывод **true**, если число является простым и **false** в противном случае.
+- Вы можете использовать `console.log` для распечатки результатов, или вы можете использовать` return` для возвращения ответа. Оба варианта являются правильными.
 
-## Constraints
-- **N** will always be a valid 32-bit integer number, which will be less than **100** or equal.
-- Time limit: **0.1s**
-- Memory limit: **16MB**
+## Примеры тестов
 
-## Sample tests
+### Тест 1
 
-### Sample test 1
-
-#### Input
+#### Ввод
 ```js
 ['2']
 ```
 
-#### Output
+#### Вывод
 ```
 true
 ```
 
-### Sample test 2
+### Тест 2
 
-#### Input
+#### Ввод
 ```js
 ['23']
 ```
 
-#### Output
+#### Вывод
 ```
 true
 ```
 
-### Sample test 3
+### Тест 3
 
-#### Input
+#### Ввод
 ```js
 ['-3']
 ```
 
-#### Output
+#### Вывод
 ```
 false
 ```
 
-### Sample test 4
+### Тест 4
 
-#### Input
+#### Ввод
 ```js
 ['0']
 ```
 
-#### Output
+#### Вывод
 ```
 false
 ```
 
-### Sample test 5
+### Тест 5
 
-#### Input
+#### Ввод
 ```js
 ['1']
 ```
 
-#### Output
+#### Вывод
 ```
 false
 ```
-
-## Submission
-- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/357#6)

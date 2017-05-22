@@ -1,103 +1,99 @@
-# Sort 3 numbers
+# Сортировка 3 чисел
 
-## Description
-Sort 3 real values in descending order.
-Use nested `if` statements.
+## Описание
+Отсортируйте 3 числа в порядке убывания.
+Используйте вложенные операторы if.
 
-_Note: Don’t use arrays and the built-in sorting functionality._
+_Примечание_. Не используйте массивы и встроенные функции сортировки.
 
-## Input
-- The input will consist of an array containing three values represented as strings
+## Ввод
+- Ввод будет состоять из массива, содержащего три значения, представленные в виде строк
 
-## Output
-- The output should be a single line containing three numbers separated by spaces
+## Вывод
+- Вывод должен быть одной строкой, содержащей три числа, разделенные пробелами
 
-## Constraints
-- Time limit: **0.2s**
-- Memory limit: **16MB**
+## Тесты
 
-## Sample tests
+### Тест 1
 
-### Sample test 1
-
-#### Input
+#### Ввод
 ```js
 ['5', '1', '2']
 ```
 
-#### Output
+#### Вывод
 ```
 5 2 1
 ```
 
-### Sample test 1
+### Тест 1
 
-#### Input
+#### Ввод
 ```js
 ['-2', '-2', '1']
 ```
 
-#### Output
+#### Вывод
 ```
 1 -2 -2
 ```
 
-### Sample test 2
+### Тест 2
 
-#### Input
+#### Ввод
 ```js
 ['-2', '4', '3']
 ```
 
-#### Output
+#### Вывод
 ```
 4 3 -2
 ```
 
-### Sample test 3
+### Тест 3
 
-#### Input
+#### Ввод
 ```js
 ['0', '-2.5', '5']
 ```
 
-#### Output
+#### Вывод
 ```
 5 0 -2.5
 ```
 
-### Sample test 4
+### Тест 4
 
-#### Input
+#### Ввод
 ```js
 ['-1.1', '-0.5', '-0.1']
 ```
 
-#### Output
+#### Вывод
 ```
 -0.1 -0.5 -1.1
 ```
 
-### Sample test 5
+### Тест 5
 
-#### Input
+#### Ввод
 ```js
 ['10', '20', '30']
 ```
 
-#### Output
+#### Вывод
 ```
 30 20 10
 ```
 
-### Sample test 6
+### Тест 6
 
-#### Input
+#### Ввод
 ```js
 ['1', '1', '1']
 ```
 
-#### Output
+#### Вывод
 ```
 1 1 1
 ```

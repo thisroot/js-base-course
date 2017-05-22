@@ -1,77 +1,73 @@
-# The biggest of five numbers
+# Самое большее из пяти цифр
 
-## Description
-Write a script that finds the biggest of given 5 variables.
-Use nested `if` statements.
+## Описание
+Напишите скрипт, который найдет самую большую из заданных 5 переменных.
+Используйте вложенные операторы if.
 
-## Input
-- The input will consist of an array containing five values represented as strings
+## Ввод
+- Ввод будет состоять из массива, содержащего пять значений, представленных в виде строк
 
-## Output
-- The output should be a single line containing the answer
+## Вывод
+- Вывод должен состоять из одной строки, содержащей ответ
 
-## Constraints
-- Time limit: **0.2s**
-- Memory limit: **16MB**
+## Тесты
 
-## Sample tests
+### Тест 1
 
-### Sample test 1
-
-#### Input
+#### Ввод
 ```js
 ['5', '2', '2', '4', '1']
 ```
 
-#### Output
+#### Вывод
 ```
 5
 ```
 
-### Sample test 2
+### Тест 2
 
-#### Input
+#### Ввод
 ```js
 ['-2', '-22', '1', '0', '0']
 ```
 
-#### Output
+#### Вывод
 ```
 1
 ```
 
-### Sample test 3
+### Тест 3
 
-#### Input
+#### Ввод
 ```js
 ['-2', '4', '3', '2', '0']
 ```
 
-#### Output
+#### Вывод
 ```
 4
 ```
 
-### Sample test 4
+### Тест 4
 
-#### Input
+#### Ввод
 ```js
 ['0', '-2.5', '0', '5', '5']
 ```
 
-#### Output
+#### Вывод
 ```
 5
 ```
 
-### Sample test 5
+### Тест 5
 
-#### Input
+#### Ввод
 ```js
 ['-3', '-0.5', '-1.1', '-2', '-0.1']
 ```
 
-#### Output
+#### Вывод
 ```
 -0.1
 ```

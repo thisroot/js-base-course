@@ -1,77 +1,73 @@
-# Multiplication Sign
+# Знак умножения
 
-## Description
-Write a script that shows the sign (`+`, `-` or `0`) of the product of three real numbers, without calculating it.
-Use a sequence of `if` operators.
+## Описание
+Напишите скрипт, который показывает знак (`+`, `-` или` 0`) произведения трех действительных чисел, не вычисляя его.
+Используйте последовательность операторов if.
 
-## Input
-- The input will consist of an array containing three values - `a`, `b` and `c` represented as strings
+## Входные данные
+- Ввод будет состоять из массива, содержащего три значения - `a`,` b` и `c`, представленные в виде строк
 
-## Output
-- The output should be a single line containing `+`, `-` or `0`
+## Вывод
+- Выход должен быть отдельной строкой, содержащей `+`, `-` или` 0`
 
-## Constraints
-- Time limit: **0.2s**
-- Memory limit: **16MB**
+## Тесты
 
-## Sample tests
+### Тест 1
 
-### Sample test 1
-
-#### Input
+#### Ввод
 ```js
 ['5', '2', '2']
 ```
 
-#### Output
+#### Вывод
 ```
 +
 ```
 
-### Sample test 2
+### Тест 2
 
-#### Input
+#### Ввод
 ```js
 ['-2', '-2', '1']
 ```
 
-#### Output
+#### Вывод
 ```
 +
 ```
 
-### Sample test 3
+### Тест 3
 
-#### Input
+#### Ввод
 ```js
 ['-2', '4', '3']
 ```
 
-#### Output
+#### Вывод
 ```
 -
 ```
 
-### Sample test 4
+### Тест 4
 
-#### Input
+#### Ввод
 ```js
 ['0', '-2.5', '4']
 ```
 
-#### Output
+#### Вывод
 ```
 0
 ```
 
-### Sample test 5
+### Тест 5
 
-#### Input
+#### Ввод
 ```js
 ['-1', '-0.5', '-5.1']
 ```
 
-#### Output
+#### Вывод
 ```
 -
 ```

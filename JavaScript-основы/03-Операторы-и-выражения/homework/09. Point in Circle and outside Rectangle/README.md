@@ -1,71 +1,66 @@
-# Point, Circle, Rectangle
+# Точка, круг и прямоугольник
 
-## Description
-Implement a javascript function that accepts an array with a pair of coordinates **x** and **y** and uses an expression to checks for given point **(x, y)**
- if it is within the circle `K({1, 1}, 1.5)` and out of the rectangle `R(top=1, left=-1, width=6, height=2)`.
+## Описание
+Реализуйте функцию javascript, которая принимает массив с парой координат **x** и **y** и использует выражение для проверки заданной точки **(x, y)**
+  Если она находится в круге `K ({1, 1}, 1.5)` и вне прямоугольника `R (top = 1, left = -1, width = 6, height = 2)`.
 
-## Input
-- You will receive the pair of coordinates as two elements of an array - the first element will be **x**, and the second - **y**.
+## Ввод
+- Вы передаете 2 числа в виде элементов массива - первый элемент будет **x**, а второй - **y**.
 
-## Output
-- Print **inside circle** if the point is inside the circle and **outside circle** if it's outside. Then print a single whitespace followed by
- **inside rectangle** if the point is inside the rectangle and **outside rectangle** otherwise. See the sample tests for a visual description.
- - You can use `console.log` to print the results or you can use `return` to return the answer. Both are correct.
- 
-## Constraints
-- The coordinates **x** and **y** will always be valid floating-point numbers in the range `[-1000, 1000]`.
-- Time limit: **0.1s**
-- Memory limit: **16MB**
+## Вывод
+- Выводить **внутри круга**, если точка находится внутри круга и **вне круга**, если она находится снаружи. Затем напечатайте один пробел, затем
+  **внутри прямоугольника**, если точка находится внутри прямоугольника и **вне прямоугольника** в противном случае. Визуальное описание см. В разделе «Тесты».
+  - Вы можете использовать `console.log` для распечатки результатов, или вы можете использовать` return` для возврата ответа. Оба варианта являются правильными.
+ 
+## Ограничения
+- Координаты **x** и **y** всегда будут действительными числами с плавающей точкой в диапазоне `[-1000, 1000]`.
 
-## Sample tests
+## Тесты
 
-### Sample test 1
+### Тест 1
 
-#### Input
+#### Ввод
 ```js
 ['2.5', '2']
 ```
 
-#### Output
+#### Вывод
 ```
-outside circle outside rectangle
+снаружи круга снаружи прямоугольника
 ```
 
-### Sample test 2
+### Тест 2
 
-#### Input
+#### Ввод
 ```js
 ['0', '1']
 ```
 
-#### Output
+#### Вывод
 ```
-inside circle inside rectangle
+внутри круга снаружи прямоугольника
 ```
 
-### Sample test 3
+### Тест 3
 
-#### Input
+#### Ввод
 ```js
 ['2.5', '1']
 ```
 
-#### Output
+#### Вывод
 ```
-inside circle inside rectangle
+внутри круга внутри прямоугольника
 ```
 
-### Sample test 4
+### Тест 4
 
-#### Input
+#### Ввод
 ```js
 ['1', '2']
 ```
 
-#### Output
+#### Вывод
 ```
-inside circle outside rectangle
+внутри круга снаружи прямоугольника
 ```
-
-## Submission
-- Submit your code [here](http://bgcoder.com/Contests/Compete/Index/357#8)

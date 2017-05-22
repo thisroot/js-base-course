@@ -1,81 +1,77 @@
-# Quadratic equation
+# Квадратное уравнение
 
-## Description
-Write a script that reads the coefficients `a`, `b` and `c` of a quadratic equation <code>ax<sup>2</sup> + bx + c = 0</code> and solves it (prints its real roots).
-Calculates and prints its real roots.
+## Описание
+Напишите скрипт, который читает коэффициенты `a`,` b` и `c` квадратного уравнения <code> ax <sup> 2 </ sup> + bx + c = 0 </ code> и решает его (выводит его корни).
+Вычисляет и печатает его действительные корни.
 
-_Note: Quadratic equations may have 0, 1 or 2 real roots._
+_Примечание_: квадратичные уравнения могут иметь 0, 1 или 2 действительных корня.
 
-## Input
-- The input will consist of an array containing three values - `a`, `b` and `c` represented as strings
+## Ввод
+- Ввод будет состоять из массива, содержащего три значения - `a`,` b` и `c`, представленные в виде строк
 
-## Output
-- The output should be a single line containing the real roots (see sample tests)
-  - Print numbers with **two digits of precision** after the floating point
-  - If there are two roots then `x1 < x2`
+## Вывод
+- Вывод должен быть строкой, содержащей корни (см. Тесты)
+   - Печатать числа с **двумя цифрами точности** после плавающей точки
+   - Если есть два корня, то `x1 <x2`
 
-## Constraints
-- Time limit: **0.2s**
-- Memory limit: **16MB**
+## Тесты
 
-## Sample tests
+### Тест 1
 
-### Sample test 1
-
-#### Input
+#### Ввод
 ```js
 ['2', '5', '-3']
 ```
 
-#### Output
+#### Вывод
 ```
 x1=-3.00; x2=0.50
 ```
 
-### Sample test 2
+### Тест 2
 
-#### Input
+#### Ввод
 ```js
 ['-1', '3', '0']
 ```
 
-#### Output
+#### Вывод
 ```
 x1=0.00; x2=3.00
 ```
 
-### Sample test 3
+### Тест 3
 
-#### Input
+#### Ввод
 ```js
 ['-0.5', '4', '-8']
 ```
 
-#### Output
+#### Вывод
 ```
 x1=x2=4.00
 ```
 
-### Sample test 4
+### Тест 4
 
-#### Input
+#### Ввод
 ```js
 ['5', '2', '8']
 ```
 
-#### Output
+#### Вывод
 ```
-no real roots
+нет корней
 ```
 
-### Sample test 5
+### Тест 5
 
-#### Input
+#### Ввод
 ```js
 ['0.2', '9.572', '0.2']
 ```
 
-#### Output
+#### Вывод
 ```
 x1=-47.84; x2=-0.02
 ```

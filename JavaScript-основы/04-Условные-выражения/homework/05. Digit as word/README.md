@@ -1,114 +1,110 @@
-# Digit as word
+# Цифра в виде слова
 
-## Description
-Write a script that asks for a digit `(0-9)`, and depending on the input, shows the digit as a word (in English).
-Print `not a digit` in case of invalid input.
-Use a `switch` statement.
+## Описание
+Напишите скрипт, который запрашивает цифру `(0-9)`, и в зависимости от Ввода отображает цифру как слово (на английском языке).
+Выводите `не цифра` в случае недействительного ввода.
+Используйте оператор `switch`.
 
-## Input
-- The input will consist of an array containing a single string
+## Ввод
+- Ввод будет состоять из массива, содержащего одну строку
 
-## Output
-- The output should be a single line
+## Вывод
+- Вывод должен быть одной строкой
 
-## Constraints
-- Time limit: **0.2s**
-- Memory limit: **16MB**
+## Тесты
 
-## Sample tests
+### Тест 1
 
-### Sample test 1
-
-#### Input
+#### Ввод
 ```js
 ['2']
 ```
 
-#### Output
+#### Вывод
 ```
-two
+два
 ```
 
-### Sample test 2
+### Тест 2
 
-#### Input
+#### Ввод
 ```js
 ['1']
 ```
 
-#### Output
+#### Вывод
 ```
-one
+один
 ```
 
-### Sample test 3
+### Тест 3
 
-#### Input
+#### Ввод
 ```js
 ['0']
 ```
 
-#### Output
+#### Вывод
 ```
-zero
+ноль
 ```
 
-### Sample test 4
+### Тест 4
 
-#### Input
+#### Ввод
 ```js
 ['5']
 ```
 
-#### Output
+#### Вывод
 ```
-five
+пять
 ```
 
-### Sample test 5
+### Тест 5
 
-#### Input
+#### Ввод
 ```js
 ['-0.1']
 ```
 
-#### Output
+#### Вывод
 ```
-not a digit
+не число
 ```
 
-### Sample test 6
+### Тест 6
 
-#### Input
+#### Ввод
 ```js
 ['hi']
 ```
 
-#### Output
+#### Вывод
 ```
-not a digit
+не число
 ```
 
-### Sample test 7
+### Тест 7
 
-#### Input
+#### Ввод
 ```js
 ['9']
 ```
 
-#### Output
+#### Вывод
 ```
-nine
+девять
 ```
 
-### Sample test 8
+### Тест 8
 
-#### Input
+#### Ввод
 ```js
 ['10']
 ```
 
-#### Output
+#### Вывод
 ```
-not a digit
+не число
 ```

@@ -1,13 +1,13 @@
-﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
 	<title>Loops - while loop</title>
 	<link href="styles/js-console.css" rel="stylesheet" />
 </head>
 <body>
 	<input type="text" id="tb-number" />
-	<a href="#" id="btn-check-prime" onclick="onCheckPrimeBtnClick()">Check prime</a>
-	<a href="#" onclick="onPrintSumBtnClick()">Print Sum</a>
+	<a href="#" id="btn-check-prime" onclick="onCheckPrimeBtnClick()">Число простое?</a>
+	<a href="#" onclick="onPrintSumBtnClick()">Сумма</a>
 	<div id="js-console">
 	</div>
 	<script src="scripts/js-console.js">	  
@@ -19,7 +19,7 @@
 			jsConsole.writeLine(number);
 			number = Math.floor((Math.random() * 10000));
 		}
-		jsConsole.writeLine('Found -> ' + number)
+		jsConsole.writeLine('Найдено -> ' + number)
 
 		jsConsole.writeLine();
 		jsConsole.writeLine();
@@ -37,14 +37,14 @@
 				divider++;
 			}
 
-			jsConsole.writeLine(`The number ${number} is ${isPrime ? '' : ' not '} prime`);
+			jsConsole.writeLine(`Число ${number} is ${isPrime ? '' : ' не '} простое`);
 		}
 
 		function onPrintSumBtnClick() {
 			let n = jsConsole.readInteger('#tb-number'),
 				number = 1,
 				sum = 1,
-				result = 'The sum 1';
+				result = 'Сумма 1';
 
 			while (number < n) {
 				number += 1;

@@ -4,7 +4,7 @@
 const firstName = 'Ivan',
     middleName = `Todorov`,
     lastName = "Ivanov";
-    
+
 console.log("Hello, " + firstName + "!");
 
 const fullName = firstName + ' ' + middleName + ' ' + lastName;

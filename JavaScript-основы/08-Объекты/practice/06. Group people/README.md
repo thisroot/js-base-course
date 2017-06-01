@@ -1,11 +1,10 @@
-# Group people
+# Группа людей
 
-## Description
-Write a function that groups an array of people by age.
-The function must return an associative array, with keys - the groups, and values - arrays with people in this groups
-Use function overloading (i.e. just one function)
+## Описание
+Напишите функцию, которая группирует массив людей по возрасту.
+Функция должна возвращать ассоциативный массив с ключами - возрастом и значениями - массивами с людьми в этих группах.
 
-_Example:_
+_Пример:_
 
 ```js
 var people = [
@@ -40,6 +39,3 @@ var groupedByAge = group(people);
   ]
 }
 ```
-
-## Submission
-- You do not have to submit anything for this problem

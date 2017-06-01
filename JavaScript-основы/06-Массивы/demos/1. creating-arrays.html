@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 	<title>JS Arrays - Creating arrays</title>
@@ -9,19 +9,19 @@
 <body>
 	<div id="js-console"></div>
 	<script src="scripts/js-console.js"></script>
-	<script>				  	
+	<script>
 		var arr,
 			arr2,
 			weekDays,
 			mixedArr;
-			
+
 		arr = new Array(1, 2, 3, 4, 5);
 		jsConsole.writeLine('arr = ' + arr.join(', '));
 
-		arr2 = new Array(10);								
+		arr2 = new Array(10);
 		jsConsole.writeLine('arr2 = ' + arr2.join(', '));
 		jsConsole.writeLine('arr2[2] = ' + arr2[2]);
-		
+
 		weekDays = ['Monday', 'Tuesday', 'Wednesday',
 			'Thursday', 'Friday', 'Saturday', 'Sunday']
 		jsConsole.writeLine('weekDays = ' + weekDays.join(', '));

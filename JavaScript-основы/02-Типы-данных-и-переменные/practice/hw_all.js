@@ -11,33 +11,40 @@ let vundef = undefined;
 let vnull = null;
 let vnan = NaN;
 let vinf = Infinity;
+let vnum = new Number(2);
 
-console.log("1 example: ", vint,vfloat,vstring,vundef,vnull,vnan)
+console.log("1 example: ", 
+            vint, 
+            vfloat, 
+            vstring, 
+            vundef,
+            vnull,
+            vnan)
 
 /*2*/
 
-vstring = '\"Как поживаете\", Сказал Джои';
-console.log(vstring);
+vstring = ' \u00ABКак поживаете\u00BB , Сказал Джои';
+console.log(vstring)
 
 /*3*/
 
 console.log(
-typeof(vint),
-typeof(vfloat),
-typeof(vstring),
-typeof(vundef),
-typeof(vnull),
-typeof(vnan),
-typeof(vinf)
+    typeof vint,
+    typeof vfloat,
+    typeof vstring,
+    typeof vundef,
+    typeof vnull,
+    typeof vnan,
+    typeof vinf,
+    typeof vnum
 )
 
 /*4*/
 
-let empty
+let empty;
 console.log(empty);
 
 /*5*/
-
 let one = '1234',
     two = '1234abc',
     three = '0.15',

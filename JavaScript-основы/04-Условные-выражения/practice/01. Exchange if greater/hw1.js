@@ -1,11 +1,13 @@
 let a = 6,
     b = 4,
-    c = null;
+    tmp;
+
+console.log(a,b);
 
 if(a > b) {
-    c = b;
+    tmp = b;
     b = a;
-    a = c;
+    a = tmp;
 }
 
 console.log(a,b);

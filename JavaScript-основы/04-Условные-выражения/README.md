@@ -11,6 +11,14 @@
 if (условие) {
     выражение;
 }
+
+let vasya = 5,
+    petya = 6;
+
+if(vasya < petya) {
+  console.log(vasya) // 5
+}
+
 ```
 ### Условия и утверждения
 - Условие может быть:
@@ -40,7 +48,7 @@ console.log('The greater number is: ' + bigger);
 ```js
 var str = '1c23';
 if(!(+str)){ // если строка не номер, +str хранит NaN
-  throw new Error('str не номер!');
+  throw new Error('str не число!');
 }
 ```
 
@@ -65,9 +73,9 @@ if (условие) {
 var s = '123';
 var number = +s;
 if (number % 2) {
-    console.log('Это число четное.');
+    console.log('Это число нечетное.');
 } еlse {
-    console.log('Число нечетное.');
+    console.log('Число четное.');
 }
 ```
 

@@ -1,7 +1,7 @@
-let a = -0.1,
-    b = -0.5,
-    c = -1.1;
-
+let a = 2,
+    b = 6,
+    c = 4;
+// a - max?
 if((a >= b) && (a >=c)) {
     console.log(a);
 } else if(b >= c) {

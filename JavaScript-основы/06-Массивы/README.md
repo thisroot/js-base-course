@@ -239,7 +239,7 @@ for (i in capitals) {
 -  Добавить элемент по индексу в массив:
 
   ```js
-  //Добавляет один элементт в позицию index
+  //Добавляет один элемент в позицию index
   items.splice(index, 0, element);
   //добавляет несколько элементов начиная с позиции index
   items.splice(index, 0, item1, item2, item3);

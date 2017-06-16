@@ -1,7 +1,7 @@
-let N = 5;
-let str;
+let n = 5;
+let str = "";
 
-for(let i=0; i !=N+1; i++) {
+for(let i=1; i <= n; i++) {
     str +=i+" "
 }
 

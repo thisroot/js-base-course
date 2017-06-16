@@ -5,11 +5,11 @@ let a = 2,
 let min = a,
     max = a,
     sum = a,
-    avg = a;
+    mean = a;
 
 let arr = [a,b,c]
 
-for(let i=0; i != arr.length; i++) {
+for(i in arr) {
 
     if(min > arr[i]) {
         min = arr[i]
@@ -22,6 +22,6 @@ for(let i=0; i != arr.length; i++) {
     sum +=arr[i]
 }
 
-avg = +(sum / arr.length).toFixed(2)
+mean = (sum / arr.length).toFixed(2);
 
-console.log(min,max,sum,avg);
+console.log(min,max,sum,mean);

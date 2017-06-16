@@ -1,7 +1,7 @@
 arr = [];
-n = 5;
+n = 10;
 
-for(let i=0; i<5; i++) {
+for(let i=0; i<n; i++) {
     arr[i] = i*5;
 }
 

@@ -1,3 +1,4 @@
+
 let people = [
      {Firstname: 'Георгий', lastname: 'Петров', возраст: 32},
      {Firstname: 'Владимир', lastname: 'Иванов', возраст: 81},

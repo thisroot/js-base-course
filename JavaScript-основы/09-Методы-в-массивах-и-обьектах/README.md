@@ -1,8 +1,7 @@
 # Методы в массивах и объектах
-##  `every`, `some`
 
-### Методы массива длят условий: `Array#every`
-- `Array#every`
+### Методы массива для условий: `Array.every()`
+- `Array.every()`
   - Сигнатура: `[].every(callback);`
   - Колбэк: `callback(item [, index [,arr]])`
   - Возвращает: `Boolean`
@@ -10,7 +9,7 @@
     - Возвращает `false` если **какой-либо** из методов не удовлетворяет условию переданному в `callback()`
   - Поддерживается: везде
 
-### Условия: `Array#every`
+### Условия: `Array.every()`
 
 - Проверить все элементы на четность?
 
@@ -34,17 +33,17 @@ console.log([19, 18].every(isGreaterThan18)); //false
 ```
 
 
-### Методы массивов для условий: `Array#some`
+### Методы массивов для условий: `Array.some()`
 
-- `Array#some`
+- `Array.some()`
   - Сигнатура: `[].some(callback);`
   - Колбэк: `callback(item [, index [,arr]])`
   - Возвращает: `Boolean`
   - Поведение: возвращает `true` если **какой-либо** удовлетворяет критериям указанным в `callback()`
-      - -Возвращает `false` если не один из элементов не удовлетворяет усвлоиям `callback()`
+      - Возвращает `false` если не один из элементов не удовлетворяет условиям `callback()`
   - Поддержка везде
 
-### Условия: `Array#some`
+### Условия: `Array.some()`
 
 - Проверка массива на наличие хотя бы одного четного числа
 
@@ -70,9 +69,9 @@ console.log([17, 18].some(isGreaterThan18)); //false
 
 ### Методы трасформации массивов  `map`, `reduce`, `filter`
 
-### Метод `Array#filter`
+### Метод `Array.filter()`
 
-- `Array#filter`
+- `Array.filter()`
   - Сигнатура: `[].filter(callback);`
   - Колбэк: `callback(item [, index [, arr]])`
   - Возвращает: `Array`
@@ -80,9 +79,9 @@ console.log([17, 18].some(isGreaterThan18)); //false
     - Возвращает **пустой массив**, если нет элементов удовлетворяющих критериям.
   - Поддержка: везде
 
-### Трансформация: Array#filter
+### Трансформация: Array.filter()
 
-- Извлечь четные элементы из массива
+- Извлечь нечетные элементы из массива
 
 ```js
 function isOdd(number) {
@@ -93,27 +92,28 @@ console.log([1, 3, 5, 7].filter(isOdd)); // [1, 3, 5, 7]
 console.log([2, 4, 6, 8].filter(isOdd)); // []
 ```
 
-- Возвращает элементы водящие в диапазон
+- Возвращает элементы входящие в диапазон
 
 ```js
 function InRange(min, max) {
   return function(item) { return min <= item && item <= max; };
 }
+
 var numbers = [2, 3, 4, 5, 6, 7, 8];
 console.log(numbers.filter(inRange(4, 7))); // [4, 5, 6, 7]
 console.log(numbers.filter(inRange(2, 4))); // [2, 3, 4]
 ```
 
-### Методы трансформации массивов: `Array#reduce`
+### Методы трансформации массивов: `Array.reduce`
 
-- `Array#reduce`
+- `Array.reduce`
   - Сигнатура: `[].reduce(callback, initial);`
   - Колбэк: `callback(accumulator, item [, index [, arr]])`
   - Возвращает: `Object`
   - Поведение: возвращает **объект**, с результатами `callback()`
   - Поддержка: везде
 
-### Трансформация: Array#reduce
+### Трансформация: Array.reduce
 
 - Вычислить сумму и произведение элементов
 
@@ -128,9 +128,9 @@ console.log(sum);               //10
 console.log(product);           //24
 ```
 
-### Методы трансформации массивов: `Array#map`
+### Методы трансформации массивов: `Array.map()`
 
-- `Array#map`
+- `Array.map()`
   - Сигнатура: `[].map(callback);`
   - Колбэк: `callback(item [, index [, arr]])`
   - Возвращает: `Object`
@@ -138,7 +138,7 @@ console.log(product);           //24
   - Поддержка: везде
 
 <!-- attr: {style: 'font-size: 0.9em'} -->
-### Трансформация: `Array#map`
+### Трансформация: `Array.map`
 
 - Вычисляет квадрат каждого из чисел
 
@@ -163,9 +163,9 @@ console.dir(matrix);                            //  [4, 5, 6]]
 
 ### Итераторы массивов
 
-### Итератор: `Array#forEach`
+### Итератор: `Array.forEach()`
 
-- `Array#forEach`
+- `Array.forEach`
   - Сигнатура: `[].forEach(callback);`
   - Колбэк: `callback(item [, index [, arr]])`
   - Возвращает: `undefined`
@@ -173,7 +173,7 @@ console.dir(matrix);                            //  [4, 5, 6]]
     - Очень похоже на цикл for-of где функцией колбеком является блок цикла.
   - Поддержка: везде
 
-### Итератор: `Array#forEach`
+### Итератор: `Array.forEach()`
 
 - Печатает элементы вместе с их индексом
 
@@ -184,7 +184,7 @@ numbers.forEach(function(item, index) {
 });
 ```
 
-- Вызывает метод для каждом элементе в массиве
+- Вызывает метод для каждого элемента в массиве
 
 ```js
 function createPerson(name, age) { //… }
@@ -198,9 +198,9 @@ people.forEach(function(person) {
 ```
 
 ### Метды для поиска по массиву  `find`, `findIndex`
-### Поиск: `Array#find`
+### Поиск: `Array.find()`
 
-- `Array#find`
+- `Array.find()`
   - Сигнатура: `[].find(callback);`
   - Колбэк: `callback(item [, index [, arr]])`
   - Возвращает: `Object` or `undefined`
@@ -208,7 +208,7 @@ people.forEach(function(person) {
     - И **нет такого элемента** возвращается `undefined`
   - Поддержка: Почти нигде, необходим полифил - класс, имплементирующий поддержку функционала
 
-### Поиск: `Array#find`
+### Поиск: `Array.find()`
 
 - Ищет крайнее левое нечетное число, большее 5
 
@@ -228,9 +228,9 @@ console.log(numbers.find(function(item, index) {
 }));            //prints 5
 ```
 
-### Поиск по массиву: `Array#findIndex`
+### Поиск по массиву: `Array.findIndex()`
 
-- `Array#findIndex`
+- `Array.findIndex()`
   - Сигнатура: `[].findIndex(callback);`
   - Коллбэк: `callback(item [, index [, arr]])`
   - Возвращает: `Number` or `-1`
@@ -238,7 +238,7 @@ console.log(numbers.find(function(item, index) {
     - Если **элемент не найде** возвращает `-1`
   - Поддержка: Почти нигде, необходим полифил - класс, имплементирующий поддержку функционала
 
-### Поиск: Array#findIndex
+### Поиск: Array.findIndex()
 
 - Найти индекс крайнего левого элемента большего 5
 
@@ -249,7 +249,7 @@ console.log(numbers.findIndex(function(item) {
 }));            //prints 6(element 7)
 ```
 
-  - Поиск индекса крайнего левого элмента с индексом большим 3
+  - Поиск индекса крайнего левого элемента с индексом большим 3
 
 ```js
 var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -259,16 +259,16 @@ console.log(numbers.findIndex(function(item, index) {
 ```
 
 ### Другие методы массива  `sort`, `fill`
-### Методы: `Array#sort`
+### Методы: `Array.sort()`
 
-- `Array#sort`
+- `Array.sort()`
   - Сигнатура: `[].sort(callback);`
   - Коллбэк: `callback(obj1, obj2)`
   - Возвращает: `Array`
   - Поведение: **сортирует элементы** в массиве в соответствии с `callback()`
   - Поддержка: везде
 
-### `Array#sort`
+### `Array.sort()`
 
 - Сортирует массив в обратном порядке
 
@@ -290,15 +290,15 @@ people.sort(function(p1, p2) {
 console.log(people);  // John, Peter, Susan
 ```
 
-### Методы: `Array#fill`
+### Методы: `Array.fill()`
 
-- `Array#fill`
+- `Array.fill()`
   - Сигнатура: `[].fill(value [, from [, to]])`
   - Возвращает: `Array`
   - Поведение: **заполняет массив** переданными значениями
   - Поддержка: Почти нигде, необходим полифил - класс, имплементирующий поддержку функционала
 
-### `Array#fill`
+### `Array.fill()`
 
 - Заполняет массив единицами
 

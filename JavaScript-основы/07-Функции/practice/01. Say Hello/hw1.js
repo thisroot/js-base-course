@@ -1,10 +1,10 @@
 let name = "Вася";
 
-function printName(name) {
-    console.log("Привет " + name);
+function greeting(name) {
+    return "Привет " + name;
 }
 
-printName(name);
+var result = greeting(name);
+console.log(result);
 
-
-
+console.log(greeting("Петя"));

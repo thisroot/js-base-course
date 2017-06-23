@@ -7,7 +7,7 @@
 _Пример:_
 
 `` `JS
-Var people = [
+var people = [
      {Firstname: 'Георгий', lastname: 'Петров', возраст: 32},
      {Firstname: 'Владимир', lastname: 'Иванов', возраст: 81},
      {Firstname: 'Денис', lastname: 'Сидоров', возраст: 42}

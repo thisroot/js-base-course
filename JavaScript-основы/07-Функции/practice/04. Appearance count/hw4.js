@@ -1,5 +1,6 @@
 function countSameNums(arr, num) {
     let count = 0;
+    // for-of
     for(let item of arr) {
         if(num == item) {
             count++
@@ -7,7 +8,6 @@ function countSameNums(arr, num) {
     }
     return count;
 }
-
 
 let arr = [8,28,6,21,6,7856,73,73,56,73];
 let num = 73;

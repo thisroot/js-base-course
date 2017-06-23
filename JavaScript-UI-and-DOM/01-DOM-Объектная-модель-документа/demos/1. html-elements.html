@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
-	<title>Document Object Model - HTML Elements</title>	
+	<title>Document Object Model - HTML Elements</title>
 </head>
+
 <body>
-	<img id="ninja-image" >
+	<img id="ninja-image">
 	<script>
 		var ninjaImg = document.getElementById('ninja-image');
 		ninjaImg.src = 'images/ninja.jpg';
 		ninjaImg.width = 400;
 
-		var times = 20, 
-		update = -1;
+		var times = 20,
+			update = -1;
 
 		var isNinjaVisible = true;
 
-		function animationFrame(){
-			
-			if(isNinjaVisible) {
+		function animationFrame() {
+
+			if (isNinjaVisible) {
 				ninjaImg.width = 0;
-			}
-			else {
+			} else {
 				ninjaImg.width = 400;
 			}
 
@@ -29,11 +30,11 @@
 			ninjaImg.width = (20 - times) * 50;
 			times += update;
 
-			if(times === 0) {
+			if (times === 0) {
 				update = 1;
 			}
 
-			if(times === 20) {
+			if (times === 20) {
 				update = -1;
 			}
 
@@ -42,4 +43,5 @@
 		animationFrame();
 	</script>
 </body>
+
 </html>

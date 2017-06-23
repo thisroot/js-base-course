@@ -14,7 +14,7 @@ function GetMax(a,b,c) {
                 max=c;
             }
     
-    console.log(max);
+    return c;
 }
 
-GetMax(a,b,c);
+console.log(GetMax(a,b,c));

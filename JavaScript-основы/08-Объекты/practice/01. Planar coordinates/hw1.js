@@ -1,17 +1,17 @@
-function Point(x,y) {
+
+function Point(ox,oy) {
     return {
-        x:x,
-        y:y
+        x:ox,
+        y:oy
     }
 }
 
-function Line(a,b) {
-    let p1 = a, p2 = b
+function Line(p1,p2) {
     return {
         point1: p1,
         point2: p2,
         length: (Math.sqrt(
-                Math.pow(p1.x - p2.x,2) + 
+                Math.pow(p1.x - p2.x,2) +
                 Math.pow(p1.y-p2.y,2)).toFixed(2)
             )
         }
@@ -47,4 +47,3 @@ console.log(line1.length,
             line3.length,
             checkTriangle(line1,line2,line3)
            )
-

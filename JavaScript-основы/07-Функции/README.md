@@ -227,8 +227,7 @@ printArguments(1, 2, 3, 4); //1, 2, 3, 4
 
 ```js
 function printArguments() {
-  var i,
-      args;
+  var i, args;
 
   args = [].slice.apply(arguments);
   for(i in args) {

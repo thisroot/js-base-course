@@ -3,7 +3,7 @@ function getLastNumberAsWord(item) {
     if(!(+item)) {
         throw new Error("item is not number");
     }
-    
+
     let out;
     switch(item%10){
             case(0):
@@ -27,8 +27,8 @@ function getLastNumberAsWord(item) {
             case(9):
                 out = "Девять"; break
                   }
-    
+
     console.log(out);
 }
 
-getLastNumberAsWord(2345);
+getLastNumberAsWord(1234);

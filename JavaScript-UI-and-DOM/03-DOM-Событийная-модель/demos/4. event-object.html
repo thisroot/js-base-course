@@ -1,12 +1,12 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>JavaScript Event Model - The Event Object</title>
+    <title>JavaScript модель событий - обьект событий</title>
 </head>
 <body>
-    <h1>Click to see Event Properties in the Console</h1>
-    <button class="button" id="button">Click me!</button>
+    <h1>Нажмите, чтобы увидеть все пераметры объекта событий</h1>
+    <button class="button" id="button">Жми сюда!</button>
 
     <script type="text/javascript">
         var button = document.getElementById("button");
@@ -16,21 +16,21 @@
             //Fixed the Event object for older IEs
             e = e || window.event; 
             
-            // Get Mouse Cordinates
+            // Получить координаты мыши
             console.log("Mouse coordinates:");
             console.log(e.clientX);
             console.log(e.clientY);
 
-            // Get Event target
+            // Получить координаты события
             console.log("Event Target:");
             var currentTarget = e.target || e.srcElement;
             console.log(currentTarget);
 
-            // Get Event type
+            // Получить тип события
             console.log("Event Type:");
             console.log(e.type);
 
-            // Get Event Object properties
+            // Получить все свойства объекта событий
             console.log("Whole Event Object:");
             console.log(e);
         }, false);

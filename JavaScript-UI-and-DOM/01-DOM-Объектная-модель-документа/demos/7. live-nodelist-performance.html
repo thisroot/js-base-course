@@ -1,6 +1,6 @@
-﻿<!DOCTYPE html>
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
 	<title>DOM Manipulation - LiveNodeLists Performance</title>
 	<style>
@@ -56,7 +56,7 @@
 			startTime = new Date();
 			regularLoop(divs);
 			endTime = new Date();			
-			output.innerHTML += '<p>Legular loop executed in ' + (endTime - startTime) +'</p>';
+			output.innerHTML += '<p>Regular loop executed in ' + (endTime - startTime) +'</p>';
 
 			//measure the iteration with cached length
 			startTime = new Date();

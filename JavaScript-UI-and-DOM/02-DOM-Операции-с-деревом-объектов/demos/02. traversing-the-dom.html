@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 <head>
 	<title>DOM Manipulation - Traversing the DOM</title>
 </head>
@@ -33,7 +33,7 @@
         log("Number of child nodes:" + element.childNodes.length);
         log("child nodes: ");
         for (i = 0, len = element.childNodes.length; i < len; i++) {
-            log("childNode at (" + i + ") position: " + element.childNodes[i].nodeName);
+            log("childNode at (" + i + ") position: " + element.childNodes[i].nodeName, element.childNodes[i]);
         }
         log("-".repeat(100));
     }

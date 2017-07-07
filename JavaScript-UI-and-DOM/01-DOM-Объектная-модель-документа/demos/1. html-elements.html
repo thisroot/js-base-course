@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 	<title>Document Object Model - HTML Elements</title>
@@ -37,7 +37,9 @@
 			if (times === 20) {
 				update = -1;
 			}
-
+            
+            
+            // указывает браузеру что мы работаем с анимацией и на следующем кадре, надо выполнить функцию
 			requestAnimationFrame(animationFrame);
 		}
 		animationFrame();

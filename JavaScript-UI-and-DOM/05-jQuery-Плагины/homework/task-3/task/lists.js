@@ -1,3 +1,0 @@
-$.fn.lists = function (lists) {
-    
-}

@@ -2,7 +2,7 @@
 ## Создание динамических страниц
 
 ### DOM элементы
-- А **DOM элементы** это JavaScript обьекты которые представляют HTML
+- **DOM элементы** это JavaScript обьекты которые представляют HTML
     - **Выбранные** используя различные DOM селекторы
     - **Созданные** динамически с помощью кода
 - DOM могут быть изменены
@@ -16,9 +16,9 @@
   var div = document.createElement("div");
 ```
 ### Обход DOM дерева
-<img class="slide-image" showInPresentation="true" src="http://www.picshare.ru/uploads/170227/6E5h2k5985.png" style="left:0;" />
+<img class="slide-image" showInPresentation="true" src="./imgs/01.png" style="left:0;" />
 
-- DOM имеют свойства указывающие на их **позицию** в DOM:
+- DOM элементы имеют свойства указывающие на их **позицию** в DOM:
    - Их родительский элемент
    - Их потомки
    - Их соседи

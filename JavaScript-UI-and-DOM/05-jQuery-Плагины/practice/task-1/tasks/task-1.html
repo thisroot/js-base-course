@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+    .dropdown-list{
+      background: #333;
+      color: white;
+    }
+
+      .current {
+          padding: 10px;
+      }
+
+
+    .dropdown-list .options-container{
+      background: #777;
+      width: 99%;
+      padding: 10px;
+    }
+
+
+  </style>
+</head>
+<body>
+  <h1>Пример решения</h1>
+  <select>
+    <option value="value-1">Опция 1</option>
+    <option value="value-2">Опция 2</option>
+    <option value="value-3">Опция 3</option>
+    <option value="value-4">Опция 4</option>
+    <option value="value-5">Опция 5</option>
+  </select>
+
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script src="task-1.js"></script>
+  <script>
+    var func = solve();
+    func('select');
+  </script>
+</body>
+</html>

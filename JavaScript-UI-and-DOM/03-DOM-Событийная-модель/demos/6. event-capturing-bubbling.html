@@ -1,8 +1,8 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>JavaScript Event Model - Capturing and Bubbling Events</title>
+    <title>JavaScript модель событий - захват и всплытие событий</title>
     <link rel="stylesheet" href="styles/styles.css" />
 </head>
 <body onload="onBodyLoad()">
@@ -18,11 +18,11 @@
 
     <script>
         function onBubbleClick() {
-            console.log("Bubbling: " + this.nodeName);
+            console.log("Всплытие: " + this.nodeName);
         }
 
         function onCaptureClick() {
-            console.log("Capturing: " + this.nodeName);
+            console.log("Захват: " + this.nodeName);
         }
 
         function onBodyLoad() {
@@ -30,7 +30,6 @@
             while (element) {
                 element.addEventListener("click", onBubbleClick, false);
                 element.addEventListener("click", onCaptureClick, true);
-
                 element = element.firstElementChild;
             }
         }

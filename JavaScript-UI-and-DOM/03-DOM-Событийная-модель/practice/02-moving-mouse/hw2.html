@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html lang="ru-ru">
+
+<head>
+    <meta charset="utf-8">
+    <title>Заготовка</title>
+</head>
+
+<body>
+    <header></header>
+    <p>Переместите мышь для увеличения ширины:</p>
+    <div style="background: orange; width: 60px; height: 20px"> </div>
+    <footer></footer>
+    <script>
+        var lastX; // Последняя позиция мыши
+        var rect = document.querySelector("div");
+        rect.addEventListener("mousedown", function (event) {
+            if (event.which == 1) {
+                lastX = event.pageX;
+                addEventListener("mousemove", moved);
+                event.preventDefault(); // Запретим выделение
+            }
+        });
+
+        function moved(event) {
+            if (event.which != 1) {
+                removeEventListener("mousemove", moved);
+            }
+            else {
+                // расстояние которое преодолела мышь
+                var dist = event.pageX - lastX;
+                // минимальная ширина не менее 10 px
+                // ширина блока + дистанция
+                var newWidth = Math.max(10, rect.offsetWidth + dist);
+                rect.style.width = newWidth + "px";
+                lastX = event.pageX;
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -2,8 +2,16 @@
 <html>
 <head>
     <title></title>
-    <script type="text/javascript" src="../jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 </head>
+
+<!-- дописать функционал
+- выделить класс .special с помошью css чтобы он выделялся от других элементов списка
+- при нажатии на элемент li удалять класс special у другого элемента списка и назначать текущему элемнту класс special
+- очищать блок сообщений и выводить информацию относительно данного элемента
+-->
+
+
 <body>
     <ul>
         <li>Item 1</li>
@@ -26,7 +34,7 @@
         printMessage($specialItem.next().text());
         printMessage($specialItem.prev().text());
 
-        //undefined, $specialItem is not a DOM element and has no method nextSibling
+        //undefined, $specialItem не DOM элемент и не имеет такого метода
         printMessage($specialItem.nextSibling);
 
     </script>

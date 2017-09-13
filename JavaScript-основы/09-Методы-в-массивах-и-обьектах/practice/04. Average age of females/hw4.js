@@ -10,8 +10,8 @@ function meanAge(persons, gender) {
     })
 
     let count = persons.length
-    let sum = persons.reduce(function (sum,item) {
-      return sum + item.age;
+    let sum = persons.reduce(function(sum,item) {
+      return sum + item.age
     },0)
 
     return sum/count

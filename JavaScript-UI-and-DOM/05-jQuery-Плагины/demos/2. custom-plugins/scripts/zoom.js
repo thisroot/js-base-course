@@ -4,8 +4,13 @@
             var $this = $(this);
             var oldWidth = parseInt($this.css('width'));
             var oldHeight = parseInt($this.css('height'));
-            $this.css('width', (oldWidth * 2) + 'px');
-            $this.css('height', (oldHeight * 2) + 'px');
+            // $this.css('width', (oldWidth * 2) + 'px');
+            // $this.css('height', (oldHeight * 2) + 'px');
+            $this.css({
+              'width': (oldWidth * 2) + 'px',
+              'height': (oldHeight * 2) + 'px'
+           });
+
         });
 
         this.on('mouseout', function() {

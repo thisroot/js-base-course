@@ -3,7 +3,6 @@ Array.prototype.remove = function(num) {
     while ((ax = this.indexOf(num)) !== -1) {
             this.splice(ax, 1);
         }
-    
     return this
 }
 

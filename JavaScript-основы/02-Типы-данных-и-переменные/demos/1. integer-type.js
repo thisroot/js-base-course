@@ -1,4 +1,4 @@
-'use strict';
+'use strict'; // https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Strict_mode/Transitioning_to_strict_mode
 
 const studentsCount = 5;
 console.log('studentsCount is: ' + studentsCount);

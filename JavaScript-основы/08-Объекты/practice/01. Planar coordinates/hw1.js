@@ -6,7 +6,9 @@ function Point(ox,oy) {
     }
 }
 
+
 function Line(p1,p2) {
+
     return {
         point1: p1,
         point2: p2,
@@ -47,3 +49,5 @@ console.log(line1.length,
             line3.length,
             checkTriangle(line1,line2,line3)
            )
+
+console.log(line3)

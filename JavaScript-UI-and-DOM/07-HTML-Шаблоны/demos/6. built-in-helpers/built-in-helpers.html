@@ -42,10 +42,10 @@
 				}
 			});
 		}
+        console.log(posts);
 		return posts;
 	}
-
-
+        
 	var postsTemplate = Handlebars.compile(document.getElementById('posts-list-template').innerHTML);
 	document.getElementById('posts').innerHTML = postsTemplate({
 		posts: getPosts(10)

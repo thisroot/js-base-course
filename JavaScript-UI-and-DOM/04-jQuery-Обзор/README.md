@@ -193,6 +193,7 @@ function onButtonClick(){
 }
 
 $("a.button").on("click", onButtonClick);
+
 ```
 
 - Оптимизация событий
@@ -206,6 +207,7 @@ function onListItemClick(){
 }
 
 $("ul").on("click", "li", onListItemClick);
+
 ```
 
 ### jQuery цепочки методов

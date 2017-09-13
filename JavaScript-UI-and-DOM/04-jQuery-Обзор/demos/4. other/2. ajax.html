@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -17,6 +17,7 @@
         function createCountriesList(countries) {
             var $countriesList = $('<ul class="countries-list" />');
             $(countries).each(function(index, country) {
+                
                 $countriesList.append(
                     $('<li />')
                     .addClass('country-item')

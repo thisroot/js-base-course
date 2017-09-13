@@ -61,8 +61,8 @@
         });
 
         $('#fade-button').on('click', function () {
-            $list.fadeOut(3000);
-            $list.fadeIn(3000);
+            $list.fadeOut(2000);
+            $list.fadeIn(2000);
         });
 
         $('#animate-button').on('click', function () {
@@ -70,6 +70,8 @@
                 height: "toggle"
             }, 4000, function () {
                 // Animation complete.
+                alert("Коллбэк вызван");
+                
             });
         });
     </script>

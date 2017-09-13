@@ -18,9 +18,10 @@ let person8 = new createPerson("Светлана","Сидорова",27,true);
 let person9 = new createPerson("Сергей","Иванов",18,false);
 let person10 = new createPerson("Наташа","Иванова",45,true);
 
-module.exports = 
+module.exports =
   [
-    person1, person2, person3, person4,
+    createPerson("Иван","Иванов",25,false),
+    person2, person3, person4,
     person5, person6, person7, person8,
     person9, person10
   ]

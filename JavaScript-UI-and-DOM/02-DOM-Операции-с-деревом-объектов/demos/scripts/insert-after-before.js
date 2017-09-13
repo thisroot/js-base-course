@@ -4,8 +4,7 @@
 		addButton = document.getElementById("btn-add-name"),
 		names = [],
 		nameItem = document.createElement("li");
-
-	nameItem.className = "name-item";
+	  nameItem.className = "name-item";
 
 	function onAddNameButtonClick() {
 		var name,

@@ -119,6 +119,7 @@ function onButtonClick(event) {
   console.log(event.clientX, event.clientY);
 }
 button.addEventListener("click", onButtonClick, false);
+
 ```
 
 ### Захват и всплытие событий - Цепочка событий

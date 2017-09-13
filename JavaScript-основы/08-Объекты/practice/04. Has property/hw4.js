@@ -11,7 +11,7 @@ console.log(testObject.square())
 
 
 function hasProperty(obj,key) {
-   for(item of obj) {
+   for(let item in obj) {
        if(item == key) {
            return true
        }

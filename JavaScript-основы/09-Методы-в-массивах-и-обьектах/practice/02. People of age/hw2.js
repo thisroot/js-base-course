@@ -1,5 +1,5 @@
-var persons = require("../01. Make person/hw1.js")
-
+var persons =
+require("../01. Make person/hw1.js")
 
 function checkAge(age) {
   return function (item) {

@@ -34,15 +34,14 @@ function clone(obj) {
 	if (obj === null || typeof(obj) !== 'object') {
 		return obj;
 	}
-
     // назначаем тип обьекта для нового объекта
 	var temp = obj.constructor(); // changed
-    
+
 	for (var key in obj) {
 		if (Object.prototype.hasOwnProperty.call(obj, key)) {
 			temp[key] = clone(obj[key]);
 		}
-	}    
+	}
 
 	return temp;
 }
